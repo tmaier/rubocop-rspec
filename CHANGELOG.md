@@ -2,14 +2,16 @@
 
 ## Master (Unreleased)
 
-- Fix a false negative for `RSpec/ExcessiveDocstringSpacing` when finds description with em space. ([@ydah])
-- Fix a false positive for `RSpec/EmptyExampleGroup` when example group with examples defined in `if` branch inside iterator. ([@ydah])
-- Update the message output of `RSpec/ExpectActual` to include the word 'value'. ([@corydiamand])
-- Fix a false negative for `RSpec/Pending` when  `it` without body. ([@ydah])
+## 2.23.0 (2023-07-17)
+
 - Add new `RSpec/ReceiveMessages` cop. ([@ydah])
 - Add `AllowedIdentifiers` and `AllowedPatterns` configuration option to `RSpec/IndexedLet`.  ([@ydah])
+- Fix a false negative for `RSpec/ExcessiveDocstringSpacing` when finds description with em space. ([@ydah])
+- Fix a false positive for `RSpec/EmptyExampleGroup` when example group with examples defined in `if` branch inside iterator. ([@ydah])
+- Fix a false negative for `RSpec/Pending` when  `it` without body. ([@ydah])
 - Fix `RSpec/NamedSubject` when block has no body. ([@splattael])
 - Fix `RSpec/LetBeforeExamples` autocorrect incompatible with `RSpec/ScatteredLet` autocorrect. ([@ydah])
+- Update the message output of `RSpec/ExpectActual` to include the word 'value'. ([@corydiamand])
 
 ## 2.22.0 (2023-05-06)
 
