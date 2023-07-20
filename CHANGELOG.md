@@ -10,6 +10,7 @@
 - Add `AllowedIdentifiers` and `AllowedPatterns` configuration option to `RSpec/IndexedLet`.  ([@ydah])
 - Fix `RSpec/NamedSubject` when block has no body. ([@splattael])
 - Fix `RSpec/LetBeforeExamples` autocorrect incompatible with `RSpec/ScatteredLet` autocorrect. ([@ydah])
+- Add new `RSpec/ProperlyItSpecify` cop. ([@ydah])
 
 ## 2.22.0 (2023-05-06)
 
